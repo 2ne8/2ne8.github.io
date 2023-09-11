@@ -70,10 +70,8 @@ title: Projects
 
 		<a class="list-group-item" style="padding:2.5%;">
 		<strong>Vulnerability Exploitation in Industrial Control Systems Protocol</strong>
-		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
-			<li>Implementation of buffer overflow exploits using x86 Assembly, C, and GDB to spawn a root shell</li>
+		Implementation of buffer overflow exploits using x86 Assembly, C, and GDB to spawn a root shell
 			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0" href="{{ site.baseurl }}/public/projects/cs6263-mp4.png" data-lightbox="Projects" data-title="Demonstrated Root Shell Spawn" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6263-mp4.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
-		</ul>
 		</a>
 
 		<a class="list-group-item" style="padding:2.5%;">
@@ -190,7 +188,6 @@ title: Projects
 	
 
 	<div class="w-100" style="padding:10px;"></div>
-
 </div>
 
 <br>
