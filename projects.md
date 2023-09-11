@@ -3,7 +3,7 @@ layout: page
 title: Projects
 ---
 
-#### A listing of projects completed over graduate coursework and professional career
+#### A catalog of projects completed over undergraduate/graduate coursework and professional career, including those that are unpublishable due to academic honor code, NDA, or other agreements
 <div class="w-100" style="padding:10px;"><hr></div>
 <div class="container-fluid row">
 
@@ -18,7 +18,7 @@ title: Projects
 		<small>
 
 		<a class="list-group-item" style="padding:2.5%;">
-		<strong>...</strong>
+		<strong>JavaScript Deobfuscator</strong>
 		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
 			<li>To be updated at conclusion</li>
 		</ul>
@@ -34,7 +34,7 @@ title: Projects
 		<div class="col" style="word-wrap:break-word;">
 		<strong>CS 6263 / ECE 8813 Introduction to Cyber-Physical Systems Security</strong>
 		<br>
-		<small><em>Dr. Raheem A Beyah (Ph.D. Georgia Tech), Dr. Saman Zonouz (Ph.D UIUC)</em></small><br>
+		<small><em>Dr. Raheem Beyah (Ph.D. Georgia Tech), Dr. Saman Zonouz (Ph.D UIUC)</em></small><br>
 		<small><em>Summer 2023</em></small><br>
 
 		<div class="list-group">
@@ -45,11 +45,17 @@ title: Projects
 		<strong>Paper Presentation</strong>
 		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
 			<li>Hey, My Malware Knows Physics! Attacking PLCs with Physical Model Aware Rootkit</li>
+			<ul>
+		      <li><a href="https://youtu.be/XwkebxYoUJQ">YouTube Presentation</a></li>
+			  <li><a href="https://docs.google.com/presentation/d/1r0a-sxJK9gRjdx24KM6ado4nXmn7aIi1/edit?usp=sharing&ouid=117000885214356775850&rtpof=true&sd=true">Google Slides Presentation</a></li>
+			  <li><a href="https://www.ndss-symposium.org/wp-content/uploads/2017/09/ndss2017_08-1_Garcia_paper.pdf">Reference Paper</a></li>
+			</ul>
 		</ul>
 		</a>
 
 		<a class="list-group-item" style="padding:2.5%;">
 			<strong>Design and Implementation of Controllers for Industrial Control Systems using Factory I/O, Control I/O, and block-diagram logic programming</strong>
+			
 			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0 border-bottom-0" href="{{ site.baseurl }}/public/projects/mp1-part1a.png" data-lightbox="Projects" data-title="Water Tank System" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/mp1-part1a.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
 			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0 border-bottom-0" href="{{ site.baseurl }}/public/projects/mp1-part2ab.png" data-lightbox="Projects" data-title="Sorting Station" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/mp1-part2ab.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
 			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0" href="{{ site.baseurl }}/public/projects/mp1-part3ab.png" data-lightbox="Projects" data-title="Production Line" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/mp1-part3ab.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
@@ -77,7 +83,8 @@ title: Projects
 		<a class="list-group-item" style="padding:2.5%;">
 		<strong>Vulnerability Exploitation in Industrial Control Systems Protocol</strong>
 		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
-			<li>Implementation of buffer overflow exploits using x86 Assembly, C, and GDB</li>
+			<li>Implementation of buffer overflow exploits using x86 Assembly, C, and GDB to spawn a root shell</li>
+			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0" href="{{ site.baseurl }}/public/projects/cs6263-mp4.png" data-lightbox="Projects" data-title="Demonstrated Root Shell Spawn" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6263-mp4.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
 		</ul>
 		</a>
 
