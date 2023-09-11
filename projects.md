@@ -78,9 +78,9 @@ title: Projects
 		<a class="list-group-item" style="padding:2.5%;">
 		<strong>Paper Presentation - Hey, My Malware Knows Physics! Attacking PLCs with Physical Model Aware Rootkit</strong>
 		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
-			<li><a href="https://youtu.be/XwkebxYoUJQ">YouTube Presentation</a></li>
-			<li><a href="https://docs.google.com/presentation/d/1r0a-sxJK9gRjdx24KM6ado4nXmn7aIi1/edit?usp=sharing&ouid=117000885214356775850&rtpof=true&sd=true">Google Slides Presentation</a></li>
-			<li><a href="https://www.ndss-symposium.org/wp-content/uploads/2017/09/ndss2017_08-1_Garcia_paper.pdf">Reference Paper</a></li>
+			<li><span><a href="https://youtu.be/XwkebxYoUJQ">YouTube Presentation</a></span></li>
+			<li><span><a href="https://docs.google.com/presentation/d/1r0a-sxJK9gRjdx24KM6ado4nXmn7aIi1/edit?usp=sharing&ouid=117000885214356775850&rtpof=true&sd=true">Google Slides Presentation</a></span></li>
+			<li><span><a href="https://www.ndss-symposium.org/wp-content/uploads/2017/09/ndss2017_08-1_Garcia_paper.pdf">Reference Paper</a></span></li>
 		</ul>
 		</a>
 
