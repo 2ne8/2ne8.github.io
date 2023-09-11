@@ -44,9 +44,9 @@ title: Projects
 		<a class="list-group-item" style="padding:2.5%;">
 			<strong>Design and Implementation of Controllers for Industrial Control Systems using Factory I/O, Control I/O, and block-diagram logic programming</strong>
 			
-			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0 border-bottom-0" href="{{ site.baseurl }}/public/projects/cs6263-mp1-1.png" data-lightbox="Projects" data-title="Water Tank System" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6263-mp1-1.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
-			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0 border-bottom-0" href="{{ site.baseurl }}/public/projects/cs6263-mp1-2.png" data-lightbox="Projects" data-title="Sorting Station" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6263-mp1-2.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
-			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0" href="{{ site.baseurl }}/public/projects/cs6263-mp1-3.png" data-lightbox="Projects" data-title="Production Line" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6263-mp1-3.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
+			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0 border-bottom-0" href="{{ site.baseurl }}/public/projects/cs6263-mp1-1.png" data-lightbox="Projects" data-title="Water Tank System" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6263-mp1-1.png" style="object-fit:scale-down; width:100%; height:250;"></a>
+			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0 border-bottom-0" href="{{ site.baseurl }}/public/projects/cs6263-mp1-2.png" data-lightbox="Projects" data-title="Sorting Station" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6263-mp1-2.png" style="object-fit:scale-down; width:100%; height:250;"></a>
+			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0" href="{{ site.baseurl }}/public/projects/cs6263-mp1-3.png" data-lightbox="Projects" data-title="Production Line" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6263-mp1-3.png" style="object-fit:scale-down; width:100%; height:250;"></a>
 		</a>
 
 		<a class="list-group-item" style="padding:2.5%;">
@@ -70,6 +70,7 @@ title: Projects
 
 		<a class="list-group-item" style="padding:2.5%;">
 		<strong>Vulnerability Exploitation in Industrial Control Systems Protocol</strong>
+		<br>
 		Implementation of buffer overflow exploits using x86 Assembly, C, and GDB to spawn a root shell
 			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0" href="{{ site.baseurl }}/public/projects/cs6263-mp4.png" data-lightbox="Projects" data-title="Demonstrated Root Shell Spawn" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6263-mp4.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
 		</a>
