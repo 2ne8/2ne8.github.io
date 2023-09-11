@@ -195,7 +195,7 @@ title: Projects
 				<li>Studying zsh</li>
 				<li>Unsafety of system()</li>
 				<li>Safety of execve()</li>
-				<li>LD PRELOAD environemnt variable</li>
+				<li>LD PRELOAD environment variable</li>
 			</ul>
 		</a>
 
@@ -214,6 +214,124 @@ title: Projects
 		</div>
 	</div>
 
+	<div class="w-100" style="padding:10px;">
+		<strong>CS 6747 Advanced Malware Analysis</strong>
+		<br>
+		<small><em>Dr. Brendan Saltaformaggio (Ph.D Purdue)</em></small><br>
+		<small><em>Spring 2022</em></small><br>
+
+		<div class="list-group">
+		<small>
+		<small>
+
+		<a class="list-group-item" style="padding:2.5%;">
+			<strong>Static Malware Reverse Engineering with Ghidra</strong>
+			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+				<li>Recursively descend to follow control flow</li>
+				<li>Dissect capabilities of malware named greencat-2</li>
+				<li>Ascertain potential real-life consequences of malware</li>
+			</ul>
+		</a>
+
+		<a class="list-group-item" style="padding:2.5%;">
+			<strong>Basic Def Use Ghidra Plugin</strong>
+			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+				<li>Loop every instruction in every basic block in every function in disassembled malware binary</li>
+				<li>Generate a DOT directed graph file (per function) representing the control flow of all the instructions in a function</li>
+				<li>Build a list of the registers and memory locations which that instruction defines and uses, and append to the node label</li>
+				<li>Isolate the paths that connect to C&C servers or exfiltrate specific user data</li>
+			</ul>
+		</a>
+
+		<a class="list-group-item" style="padding:2.5%;">
+			<strong>Data Dependence Graph Ghidra Plugin</strong>
+			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+				<li>Loop every instruction in every basic block in every function in disassembled malware binary</li>
+				<li>Compute the data dependence of each instruction</li>
+				<li>Generate a DOT directed graph file (per function) representing the data dependence of all the instructions in a function</li>
+				<li>Combat path explosion, aliasing using depth-first search algorithm</li>
+				<li>Track register dependencies, direct push & pop dependencies, and static memory positions</li>
+			</ul>
+		</a>
+
+		<a class="list-group-item" style="padding:2.5%;">
+			<strong>Dynamic Control Flow Tracing</strong>
+			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+				<li>Puppeteer malware by masquerading as the C&C center and send C&C commands</li>
+				<li>Build a pintool to instrument execution of every instruction and save the preceding instruction</li>
+				<li>Generate a DOT directed graph file representing the control flow of all observed instructions</li>
+				<li>Write a script to compare dynamic CFG with static CFG</li>
+			</ul>
+		</a>
+
+		<a class="list-group-item" style="padding:2.5%;">
+			<strong>Dynamic Control Dependence</strong>
+			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+				<li>Extend pintool functionality to link code sections to the predicates that control their execution.</li>
+				<li>Using a fake C&C server, execute malware with the pintool, send it C&C commands, and recover the dynamic control dependence of each payload</li>
+				<li>Check each payload’s observed network communication against the packet trace to double-check execution paths</li>
+				<li>Write a simple analysis script to automatically identify which C&C command causes each malware function to execute </li>
+			</ul>
+		</a>
+
+		</small>
+		</small>
+		</div>
+	</div>
+
+	<div class="w-100" style="padding:10px;">
+		<strong>CS 6035 Introduction to Information Security</strong>
+		<br>
+		<small><em>Dr. Wenke Lee (Ph.D Columbia)</em></small><br>
+		<small><em>Fall 2021</em></small><br>
+
+		<div class="list-group">
+		<small>
+		<small>
+
+		<a class="list-group-item" style="padding:2.5%;">
+			<strong>Stack Overflow Exploit</strong>
+			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+				<li>Implement a stack overflow attack</li>
+				<li>Run a return-to-libc buffer overflow attack in a sandbox environment</li>
+			</ul>
+		</a>
+
+		<a class="list-group-item" style="padding:2.5%;">
+			<strong>Malware Analysis and Machine Learning</strong>
+			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+				<li>Analyze malware samples using Cuckoo and report the findings of various malware behaviors based on Windows API calls</li>
+				<li>Dissect behavior further by identifying C&C server and external SMTP servers</li>
+				<li>Use malheur, a hierarchical clustering method to cluster malware samples, to build a model to classify malware samples</li>
+			</ul>
+		</a>
+
+		<span class="list-group-item" style="padding:2.5%;">
+			<strong>Cryptography</strong>
+			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+				<li>Build an RSA message decryptor</li>
+				<li>Apply a list of common passwords to a SHA-256 hash to identify a plaintext password</li>
+				<li>Implement a rudimentary blockchain scheme, finding the lowest possible nonce value for the following block</li>
+				<li>Implement a rudimentary blockchain transaction signing method</li>
+				<li>Demonstrate an attack on a small key space for a unique RSA public key</li>
+				<li>Display the weakness of a unique RSA public key whose vulnerability was published in <a href="https://factorable.net/weakkeys12.extended.pdf"><i>Mining Your Ps and Qs: Detection of Widespread Weak Keys in Network Devices</i></a></li>
+				<li>Illustrate a broadcast RSA attack to recover an original message given 3 pairs of public keys and encrypted messages</li>
+			</ul>
+		</span>
+
+		<a class="list-group-item" style="padding:2.5%;">
+			<strong>Web Security</strong>
+			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+				<li>Build an XSRF attack</li>
+				<li>Utilize an XSS attack to "steal" a username and password</li>
+				<li>Run a SQL injection attack to bypass a site's authentication routine</li>
+			</ul>
+		</a>
+
+		</small>
+		</small>
+		</div>
+	</div>
 
 	<div class="w-100" style="padding:10px;"><hr></div>
 
