@@ -7,7 +7,7 @@ title: Projects
 <div class="w-100" style="padding:10px;"><hr></div>
 <div class="container-fluid row">
 
-	<div class="col" style="word-wrap:break-word;">
+	<div class="w-100" style="word-wrap:break-word;">
 		<strong>CS 6727 Cyber Security Practicum</strong>
 		<br>
 		<small><em>Dr. Mustaque Ahamad (Ph.D SUNY Stony Brook), Dr. Brenden Kuerbis (Ph.D Syracuse), Dr. Saman Zonouz (Ph.D UIUC)</em></small><br>
@@ -45,8 +45,8 @@ title: Projects
 			<strong>Design and Implementation of Controllers for Industrial Control Systems using Factory I/O, Control I/O, and block-diagram logic programming</strong>
 			
 			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0 border-bottom-0" href="{{ site.baseurl }}/public/projects/cs6263-mp1-1.png" data-lightbox="Projects" data-title="Water Tank System" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6263-mp1-1.png" style="object-fit:fill; width:100%; height:250;"></a>
-			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0 border-bottom-0" href="{{ site.baseurl }}/public/projects/cs6263-mp1-2.png" data-lightbox="Projects" data-title="Sorting Station" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6263-mp1-2.png" style="object-fit:fill; width:100%; height:250;"></a>
-			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0" href="{{ site.baseurl }}/public/projects/cs6263-mp1-3.png" data-lightbox="Projects" data-title="Production Line" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6263-mp1-3.png" style="object-fit:fill; width:100%; height:250;"></a>
+			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0 border-bottom-0" href="{{ site.baseurl }}/public/projects/cs6263-mp1-2.png" data-lightbox="Projects" data-title="Sorting Station" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6263-mp1-2.png" width:100%; height:250;"></a>
+			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0" href="{{ site.baseurl }}/public/projects/cs6263-mp1-3.png" data-lightbox="Projects" data-title="Production Line" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6263-mp1-3.png" style="object-fit:scale-down; width:100%; height:250;"></a>
 		</a>
 
 		<a class="list-group-item" style="padding:2.5%;">
@@ -89,7 +89,7 @@ title: Projects
 		</div>
 	</div>
 
-	<div class="w-100" style="word-wrap:break-word;">
+	<div class="w-100" style="padding:10px;">
 		<strong>CS 6264 Information Security Labs: Defenses</strong>
 		<br>
 		<small><em>Dr. Wenke Lee (Ph.D Columbia)</em></small><br>
