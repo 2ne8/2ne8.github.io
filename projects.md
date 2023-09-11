@@ -75,14 +75,14 @@ title: Projects
 			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0" href="{{ site.baseurl }}/public/projects/cs6263-mp4.png" data-lightbox="Projects" data-title="Demonstrated Root Shell Spawn" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6263-mp4.png" style="object-fit:fill; width:100%; height:75%;"></a>
 		</a>
 
-		<a class="list-group-item" style="padding:2.5%;">
+		<span class="list-group-item" style="padding:2.5%;">
 		<strong>Paper Presentation - Hey, My Malware Knows Physics! Attacking PLCs with Physical Model Aware Rootkit</strong>
 		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
-			<li><span><a href="https://youtu.be/XwkebxYoUJQ">YouTube Presentation</a></span></li>
-			<li><span><a href="https://docs.google.com/presentation/d/1r0a-sxJK9gRjdx24KM6ado4nXmn7aIi1/edit?usp=sharing&ouid=117000885214356775850&rtpof=true&sd=true">Google Slides Presentation</a></span></li>
-			<li><span><a href="https://www.ndss-symposium.org/wp-content/uploads/2017/09/ndss2017_08-1_Garcia_paper.pdf">Reference Paper</a></span></li>
+			<li><a href="https://youtu.be/XwkebxYoUJQ">YouTube Presentation</a></li>
+			<li><a href="https://docs.google.com/presentation/d/1r0a-sxJK9gRjdx24KM6ado4nXmn7aIi1/edit?usp=sharing&ouid=117000885214356775850&rtpof=true&sd=true">Google Slides Presentation</a></li>
+			<li><a href="https://www.ndss-symposium.org/wp-content/uploads/2017/09/ndss2017_08-1_Garcia_paper.pdf">Reference Paper</a></li>
 		</ul>
-		</a>
+		</span>
 
 		</small>
 		</small>
