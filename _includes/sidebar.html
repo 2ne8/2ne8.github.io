@@ -1,0 +1,41 @@
+<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" checked>
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+	<h4><font color=white>{{ site.description }}</font></h4>
+	<p><a href="https://pe.gatech.edu/degrees/cybersecurity" style="text-decoration: none; color: darkgray" target="_blank">MS Cybersecurity - Information Security @ Georgia Tech</a><br>
+  <a href="https://www.brown.edu/" style="text-decoration: none; color: darkgray" target="_blank">BS Applied Math CS @ Brown University</a></p>
+
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Blog</a>
+
+    {% comment %}
+      The code below dynamically generates a sidebar nav of pages with
+      `layout: page` in the front-matter. See readme for usage.
+    {% endcomment %}
+
+    {% assign pages_list = site.pages | sort:"url" %}
+    {% for node in pages_list %}
+      {% if node.title != null %}
+        {% if node.layout == "page" %}
+			{% if node.title == "Curriculum Vitae" %}
+				<a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}" target="_blank">{{ node.title }}&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-file-pdf-o" fa-aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-external-link" fa-aria-hidden="true"></i></a>
+			{% else %}
+				<a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+			{% endif %}
+		{% endif %}
+      {% endif %}
+    {% endfor %}
+  </nav>
+
+  <div class="sidebar-item">
+    <p style="font-size:.6rem;">
+	  Copyright &copy; <script>document.write(new Date().getFullYear())</script> Daniel Suh<br>All rights reserved.
+    </p>
+  </div>
+</div>

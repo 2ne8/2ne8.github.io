@@ -1,0 +1,31 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Gems
+plugins:          [jekyll-paginate]
+
+# Permalinks
+permalink:        pretty
+#relative_permalinks: true
+
+# Setup
+title:            Daniel Suh
+tagline:          a work (b)log
+email:            daniel_suh@alumni.brown.edu
+#email2:           dsuh40@gatech.edu
+description:      'a record of accomplishments, including those that are unpublishable due to academic honor code, NDA, or other agreements'
+paginate:         2
+baseurl:          ''
+
+author:
+  name:           'Daniel Suh'
+  url:            https://2ne8.github.io
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/2ne8/2ne8.github.io
