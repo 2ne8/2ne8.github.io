@@ -53,18 +53,18 @@ title: Projects
 		<strong>Ladder Logic Programming using OpenPLC</strong>
 		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
 			<li>Robot Path</li>
-			<li>Traffic Lights</li>
-			<li>Tank Balancer</li>
-			<li>Stirring Systems</li>
+			<li>Traffic Light</li>
 			<li>Car Parking</li>
+			<li>Stirring System</li>
+			<li>Automatic Door Opening System</li>
 		</ul>
 		</a>
 
 		<a class="list-group-item" style="padding:2.5%;">
 		<strong>Reconnaissance and Attack on ICS Networks</strong>
 		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
-			<li>Understanding the Modbus protocol</li>
-			<li>Interfacing with Industrial Control Systems using Mininet, Python and Wireshark</li>
+			<li>Understanding Modbus protocol</li>
+			<li>Interfacing with ICS devices using Mininet, Python and Wireshark</li>
 		</ul>
 		</a>
 
@@ -158,6 +158,62 @@ title: Projects
 		</small>
 		</div>
 	</div>
+
+	<div class="w-100" style="padding:10px;">
+		<strong>CS 6238 Secure Computer Systems</strong>
+		<br>
+		<small><em>Dr. Mustaque Ahamad (Ph.D SUNY Stony Brook)</em></small><br>
+		<small><em>Fall 2022</em></small><br>
+
+		<div class="list-group">
+		<small>
+		<small>
+
+		<a class="list-group-item" style="padding:2.5%;">
+			<strong>Understanding Memory Protection</strong>
+			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+				<li>mprotect() system call</li>
+				<li>stack smashing via buffer overflow</li>
+				<li>stack canary</li>
+				<li>NX (nonexecutable stack) flag</li>
+				<li>ASLR (address space layout randomization)</li>
+			</ul>
+			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0" href="{{ site.baseurl }}/public/projects/cs6238-1.png" data-lightbox="Projects" data-title="Observing stack canary values changing" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6238-1.png" style="object-fit:scale-down; width:100%; height:75%;"></a>
+		</a>
+
+		<a class="list-group-item" style="padding:2.5%;">
+			<strong>Password Hardening with 2-Factor Authentication</strong>
+			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+				<li>Implementing a 2FA scheme given a token generator</li>
+				<li>Security analysis of 2FA schemes</li>
+			</ul>
+		</a>
+
+		<a class="list-group-item" style="padding:2.5%;">
+			<strong>Exploring Set-UID and Access Control</strong>
+			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+				<li>Studying zsh</li>
+				<li>Unsafety of system()</li>
+				<li>Safety of execve()</li>
+				<li>LD PRELOAD environemnt variable</li>
+			</ul>
+		</a>
+
+		<a class="list-group-item" style="padding:2.5%;">
+			<strong>Secure Shared Store (3S)</strong>
+			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
+				<li>Login using private key</li>
+				<li>Permit check-in, checkout and deletion of documents as allowed by owner-defined access control policies</li>
+				<li>Use certificates to secure client-server communication and to authenticate sources of requests</li>
+				<li>Set up a certificate authority</li>
+			</ul>
+		</a>
+
+		</small>
+		</small>
+		</div>
+	</div>
+
 
 	<div class="w-100" style="padding:10px;"><hr></div>
 
