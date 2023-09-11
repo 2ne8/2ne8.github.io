@@ -44,9 +44,9 @@ title: Projects
 		<a class="list-group-item" style="padding:2.5%;">
 			<strong>Design and Implementation of Controllers for Industrial Control Systems using Factory I/O, Control I/O, and block-diagram logic programming</strong>
 			
-			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0 border-bottom-0" href="{{ site.baseurl }}/public/projects/cs6263-mp1-1.png" data-lightbox="Projects" data-title="Water Tank System" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6263-mp1-1.png" style="object-fit:cover; width:100%; height:250;"></a>
-			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0 border-bottom-0" href="{{ site.baseurl }}/public/projects/cs6263-mp1-2.png" data-lightbox="Projects" data-title="Sorting Station" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6263-mp1-2.png" style="object-fit:cover; width:100%; height:250;"></a>
-			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0" href="{{ site.baseurl }}/public/projects/cs6263-mp1-3.png" data-lightbox="Projects" data-title="Production Line" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6263-mp1-3.png" style="object-fit:cover; width:100%; height:250;"></a>
+			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0 border-bottom-0" href="{{ site.baseurl }}/public/projects/cs6263-mp1-1.png" data-lightbox="Projects" data-title="Water Tank System" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6263-mp1-1.png" style="object-fit:fill; width:100%; height:250;"></a>
+			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0 border-bottom-0" href="{{ site.baseurl }}/public/projects/cs6263-mp1-2.png" data-lightbox="Projects" data-title="Sorting Station" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6263-mp1-2.png" style="object-fit:fill; width:100%; height:250;"></a>
+			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0" href="{{ site.baseurl }}/public/projects/cs6263-mp1-3.png" data-lightbox="Projects" data-title="Production Line" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6263-mp1-3.png" style="object-fit:fill; width:100%; height:250;"></a>
 		</a>
 
 		<a class="list-group-item" style="padding:2.5%;">
@@ -72,7 +72,7 @@ title: Projects
 		<strong>Vulnerability Exploitation in Industrial Control Systems Protocol</strong>
 		<br>
 		Implementation of buffer overflow exploits using x86 Assembly, C, and GDB to spawn a root shell
-			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0" href="{{ site.baseurl }}/public/projects/cs6263-mp4.png" data-lightbox="Projects" data-title="Demonstrated Root Shell Spawn" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6263-mp4.png" style="object-fit:cover; width:100%; height:75%;"></a>
+			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0" href="{{ site.baseurl }}/public/projects/cs6263-mp4.png" data-lightbox="Projects" data-title="Demonstrated Root Shell Spawn" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6263-mp4.png" style="object-fit:fill; width:100%; height:75%;"></a>
 		</a>
 
 		<a class="list-group-item" style="padding:2.5%;">
@@ -101,20 +101,20 @@ title: Projects
 
 		<a class="list-group-item" style="padding:2.5%;">
 			<strong>Crafting binary exploits involving buffer overflow, ROP chaining, Use-After-Free using Angr, gdb, Ghidra</strong>
-			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0 border-bottom-0" href="{{ site.baseurl }}/public/projects/cs6264-1-1.png" data-lightbox="Projects" data-title="Part of the buffer overflow solution" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6264-1-1.png" style="object-fit:cover; width:100%; height:75%;"></a>
-			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0 border-bottom-0" href="{{ site.baseurl }}/public/projects/cs6264-1-2.png" data-lightbox="Projects" data-title="Part of the ROP chain solution" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6264-1-2.png" style="object-fit:cover; width:100%; height:75%;"></a>
-			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0" href="{{ site.baseurl }}/public/projects/cs6264-1-3.png" data-lightbox="Projects" data-title="Part of the Use-After-Free solution" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6264-1-3.png" style="object-fit:cover; width:100%; height:75%;"></a>
+			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0 border-bottom-0" href="{{ site.baseurl }}/public/projects/cs6264-1-1.png" data-lightbox="Projects" data-title="Part of the buffer overflow solution" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6264-1-1.png" style="object-fit:fill; width:100%; height:75%;"></a>
+			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0 border-bottom-0" href="{{ site.baseurl }}/public/projects/cs6264-1-2.png" data-lightbox="Projects" data-title="Part of the ROP chain solution" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6264-1-2.png" style="object-fit:fill; width:100%; height:75%;"></a>
+			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0" href="{{ site.baseurl }}/public/projects/cs6264-1-3.png" data-lightbox="Projects" data-title="Part of the Use-After-Free solution" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6264-1-3.png" style="object-fit:fill; width:100%; height:75%;"></a>
 		</a>
 
 		<a class="list-group-item" style="padding:2.5%;">
 			<strong>Examining malware behavior involving symbolic and dynamic analysis using Angr, Ghidra, Dyntrace, x64dbg</strong>
-			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0 border-bottom-0" href="{{ site.baseurl }}/public/projects/cs6264-2-1.png" data-lightbox="Projects" data-title="Using Angr to fuzz keywords recognized by malware" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6264-2-1.png" style="object-fit:cover; width:100%; height:75%;"></a>
-			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0 border-bottom-0" href="{{ site.baseurl }}/public/projects/cs6264-2-2.png" data-lightbox="Projects" data-title="Using Dyntrace to recognize registry manipulation" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6264-2-2.png" style="object-fit:cover; width:100%; height:75%;"></a>
+			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0 border-bottom-0" href="{{ site.baseurl }}/public/projects/cs6264-2-1.png" data-lightbox="Projects" data-title="Using Angr to fuzz keywords recognized by malware" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6264-2-1.png" style="object-fit:fill; width:100%; height:75%;"></a>
+			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0 border-bottom-0" href="{{ site.baseurl }}/public/projects/cs6264-2-2.png" data-lightbox="Projects" data-title="Using Dyntrace to recognize registry manipulation" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6264-2-2.png" style="object-fit:fill; width:100%; height:75%;"></a>
 		</a>
 
 		<a class="list-group-item" style="padding:2.5%;">
 			<strong>Utilizing the OTA mechanism to root an Android device to subsequently run run privileged dummy code</strong>
-			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0 border-bottom-0" href="{{ site.baseurl }}/public/projects/cs6264-3-1.png" data-lightbox="Projects" data-title="Example of OTA.zip to update recovery OS to gain root access" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6264-3-1.png" style="object-fit:cover; width:100%; height:75%;"></a>
+			<a class="list-group-item list-group-item-action flex-column align-items-start border-top-0 border-bottom-0" href="{{ site.baseurl }}/public/projects/cs6264-3-1.png" data-lightbox="Projects" data-title="Example of OTA.zip to update recovery OS to gain root access" style="text-decoration:none; margin-left:auto; margin-right:auto; display:block; text-align:center;"><img src="{{ site.baseurl }}/public/projects/cs6264-3-1.png" style="object-fit:fill; width:100%; height:75%;"></a>
 		</a>
 
 		<a class="list-group-item" style="padding:2.5%;">
@@ -130,7 +130,7 @@ title: Projects
 			<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
 				<li>Packet interception via Snort based on magic numbers of ELF executables</li>
 				<li>Packet transmission via vsftpd to reconstruct malware binary from packets</li>
-				<li>Alert generation by tweaking rsyslog configuration/li>
+				<li>Alert generation by tweaking rsyslog configuration</li>
 				<li>Process automation using daemon service</li>
 			</ul>
 		</a>
