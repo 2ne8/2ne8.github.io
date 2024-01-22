@@ -30,7 +30,7 @@ title: Projects
 			<li>Resolved function constructors, proxies, and local calls</li>
    			<li>Merged abstract syntax tree representations</li>
       			<li>Performed control dependency analysis</li>
-	 		<li>Self retrospection on project in PDF here: <a href="https://drive.google.com/file/d/11IMwU2DuzOJTev0-rNy2mrv_BFfZ_aRH/view?usp=drive_link"><i>Building a More Comprehensive JavaScript Deobfuscator</i></a></li>
+	 		<li>Self retrospection on project: <a href="https://drive.google.com/file/d/11IMwU2DuzOJTev0-rNy2mrv_BFfZ_aRH">Building a More Comprehensive JavaScript Deobfuscator</a></li>
 		</ul>
 		</a>
 
