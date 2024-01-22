@@ -17,7 +17,7 @@ title: Projects
 		<small>
 		<small>
 
-		<a class="list-group-item" style="padding:2.5%;">
+		<span class="list-group-item" style="padding:2.5%;">
 		<strong>JavaScript Deobfuscator</strong>
 		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
 			<li>Normalized terms and empty statements</li>
@@ -32,7 +32,9 @@ title: Projects
       			<li>Performed control dependency analysis</li>
 	 		<li>Self retrospection on project: <a href="https://drive.google.com/file/d/11IMwU2DuzOJTev0-rNy2mrv_BFfZ_aRH">Building a More Comprehensive JavaScript Deobfuscator</a></li>
 		</ul>
-		</a>
+		</span>
+
+  		
 
 		</small>
 		</small>
