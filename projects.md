@@ -31,7 +31,7 @@ title: Projects
    			<li>Merged abstract syntax tree representations</li>
       			<li>Performed control dependency analysis</li>
 		</ul>
-  		Self retrospection on project in PDF here: <a href="https://drive.google.com/file/d/11IMwU2DuzOJTev0-rNy2mrv_BFfZ_aRH/view?usp=drive_link"><i>Building a More Comprehensive JavaScript Deobfuscator</i></a></li>
+  		Self retrospection on project in PDF here: <a href="https://drive.google.com/file/d/11IMwU2DuzOJTev0-rNy2mrv_BFfZ_aRH/view?usp=drive_link"><i>Building a More Comprehensive JavaScript Deobfuscator</i></a>
 		</a>
 
 		</small>
