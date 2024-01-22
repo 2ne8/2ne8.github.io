@@ -11,7 +11,7 @@ title: Projects
 		<strong>CS 6727 Cyber Security Practicum</strong>
 		<br>
 		<small><em>Dr. Mustaque Ahamad (Ph.D SUNY Stony Brook), Dr. Brenden Kuerbis (Ph.D Syracuse), Dr. Saman Zonouz (Ph.D UIUC)</em></small><br>
-		<small><em>Fall 2023 (in progress)</em></small><br>
+		<small><em>Fall 2023</em></small><br>
 
 		<div class="list-group">
 		<small>
@@ -20,8 +20,18 @@ title: Projects
 		<a class="list-group-item" style="padding:2.5%;">
 		<strong>JavaScript Deobfuscator</strong>
 		<ul style="margin-bottom: 0; margin-left: 2.5%; padding-left: 0">
-			<li>To be updated at conclusion</li>
+			<li>Normalized terms and empty statements</li>
+      			<li>Created name mappings</li>
+	 		<li>Parsed code into strings</li>
+    			<li>Removed dead nodes and branches</li>
+       			<li>Removed redundant block statements and nested functions</li>
+	  		<li>Simplified calls and expressions</li>
+     			<li>Unpacked arrays</li>
+			<li>Resolved function constructors, proxies, and local calls</li>
+   			<li>Merged abstract syntax tree representations</li>
+      			<li>Performed control dependency analysis</li>
 		</ul>
+  		Self retrospection on project in PDF here: <a href="https://drive.google.com/file/d/11IMwU2DuzOJTev0-rNy2mrv_BFfZ_aRH/view?usp=drive_link"><i>Building a More Comprehensive JavaScript Deobfuscator</i></a></li>
 		</a>
 
 		</small>
